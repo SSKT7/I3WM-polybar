@@ -65,7 +65,7 @@ Follow the steps below to install these themes on your system.
 
     First, Clone this repository -
 
-$ git clone --depth=1 https://github.com/SSKT7/polybar-themes.git
+$ git clone --depth=1 https://github.com/SSKT7/I3WM-polybar.git
 
     Change to cloned directory and make setup.sh executable -
 
