@@ -103,5 +103,23 @@ Available Themes :
 
 $ bash ~/.config/polybar/launch.sh --hack
 
+
+
+Issues
+
+# battery module issues
+
+Go to module.ini and then change battery module accourding to your device .
+To find suitable module for device use this command 
+
+/sys/class/power_supply/
+
+# speed module issue
+Go to module.ini and then change battery module accourding to your device .
+To find suitable module for device use this command 
+
+ip a
+
+
 Note : I'm working on other themes of archcraft, here i have uploaded one theme (hack).
 Note : Make sure to remove your i3 bar and gaps from your i3 config.
