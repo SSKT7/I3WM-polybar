@@ -1,5 +1,5 @@
 # I3WM-polybar
-Here I have tried to create a i3wm polybar inspired by carchcraft hack theme .
+Here I have tried to create a i3wm polybar inspired by archcraft hack theme .
 Polybar aims to help users build beautiful and highly customizable status bars for their desktop environment, without the need of having a black belt in shell scripting.
 
 The main purpose of Polybar is to help users create awesome status bars. It has built-in functionality to display information about the most commonly used services. Some of the services included so far...
