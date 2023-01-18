@@ -2,25 +2,6 @@
 Here I have tried to create a i3wm polybar inspired by archcraft hack theme .
 Polybar aims to help users build beautiful and highly customizable status bars for their desktop environment, without the need of having a black belt in shell scripting.
 
-The main purpose of Polybar is to help users create awesome status bars. It has built-in functionality to display information about the most commonly used services. Some of the services included so far...
-
-    Systray icons
-    Window title
-    Playback controls and status display for MPD using libmpdclient
-    ALSA volume controls
-    Workspace and desktop panel for bspwm and i3
-    Workspace module for EWMH compliant window managers
-    Keyboard layout and indicator status
-    CPU and memory load indicator
-    Battery display
-    Network connection details
-    Backlight level
-    Date and time label
-    Time-based shell script execution
-    Command output tailing
-    User-defined menu tree
-    Inter-process messaging
-    And more...
     
 # Screanshots
 
@@ -122,13 +103,13 @@ Issues
 Go to module.ini and then change battery module accourding to your device .
 To find suitable module for device use this command 
 
-   /sys/class/power_supply/
+    /sys/class/power_supply/
 
 # speed module issue
 Go to module.ini and then change battery module accourding to your device .
 To find suitable module for device use this command 
 
-   ip a
+    ip a
 
 
 Note : I'm working on other themes of archcraft, here i have uploaded one theme (hack).
