@@ -30,7 +30,7 @@ The main purpose of Polybar is to help users create awesome status bars. It has 
 
 
 
-Dependencies
+# Dependencies
 
 Install following programs on your system before you use these themes.
 
@@ -40,7 +40,7 @@ Install following programs on your system before you use these themes.
     calc : For random colors support
     networkmanager_dmenu : For network modules
 
-Fonts
+# Fonts
 
 Here's a list of all fonts used by these themes.
 
@@ -59,48 +59,48 @@ Icon Fonts
     Material Icons
     Waffle (Siji)
 
-Installation
+# Installation
 
 Follow the steps below to install these themes on your system.
 
-    First, Clone this repository -
+First, Clone this repository -
 
-$ git clone --depth=1 https://github.com/SSKT7/I3WM-polybar.git
+    $ git clone --depth=1 https://github.com/SSKT7/I3WM-polybar.git
 
-    Change to cloned directory and make setup.sh executable -
+Change to cloned directory and make setup.sh executable -
 
-$ cd polybar-themes
+    $ cd polybar-themes
 
 
-$ chmod +x setup.sh
+    $ chmod +x setup.sh
 
-    Run setup.sh and select a style -
+Run setup.sh and select a style -
 
-$ ./setup.sh
+    $ ./setup.sh
 
-[*] Installing Polybar Themes...
+    [*] Installing Polybar Themes...
 
-[*] Choose Style -
-[1] Simple
-[2] Bitmap
+    [*] Choose Style -
+    [1] Simple
+    [2] Bitmap
 
-[?] Select Option : 1
+  [?] Select Option : 1
 
-[*] Installing fonts...
-[*] Creating a backup of your polybar configs...
-[*] Successfully Installed.
+  [*] Installing fonts...
+  [*] Creating a backup of your polybar configs...
+  [*] Successfully Installed.
 
-    That's it, These themes are now installed on your system.
+That's it, These themes are now installed on your system.
 
-    Note : These themes are like an ecosystem, everything here is connected with each other in some way. So... before modifying anything by your own, make sure you know what you are doing.
+Note : These themes are like an ecosystem, everything here is connected with each other in some way. So... before modifying anything by your own, make sure you know what you are doing.
 
 Launch the bar
 
 To launch the bar with the selected theme, Just...
 
-    Open the terminal and enter the following command -
+Open the terminal and enter the following command -
 
-$ bash ~/.config/polybar/launch.sh
+    $ bash ~/.config/polybar/launch.sh
 
 Usage : launch.sh --theme
 
@@ -109,9 +109,9 @@ Available Themes :
 --forest    --grayblocks     --hack      --material
 --panels    --pwidgets       --shades    --shapes
 
-    Now, select your theme and launch the bar -
+Now, select your theme and launch the bar -
 
-$ bash ~/.config/polybar/launch.sh --hack
+    $ bash ~/.config/polybar/launch.sh --hack
 
 
 
@@ -122,13 +122,13 @@ Issues
 Go to module.ini and then change battery module accourding to your device .
 To find suitable module for device use this command 
 
-/sys/class/power_supply/
+   /sys/class/power_supply/
 
 # speed module issue
 Go to module.ini and then change battery module accourding to your device .
 To find suitable module for device use this command 
 
-ip a
+   ip a
 
 
 Note : I'm working on other themes of archcraft, here i have uploaded one theme (hack).
