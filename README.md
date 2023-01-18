@@ -21,6 +21,14 @@ The main purpose of Polybar is to help users create awesome status bars. It has 
     User-defined menu tree
     Inter-process messaging
     And more...
+    
+# Screanshots
+
+![2023-01-18-225716_1920x1080_scrot](https://user-images.githubusercontent.com/82232181/213264586-7968c912-7f50-4afb-850e-05ca81968d75.png)
+![2023-01-18-225813_1920x1080_scrot](https://user-images.githubusercontent.com/82232181/213264716-eae52667-5b69-4f47-a7c2-fb706fe6799f.png)
+
+
+
 
 Dependencies
 
@@ -62,6 +70,8 @@ $ git clone --depth=1 https://github.com/SSKT7/polybar-themes.git
     Change to cloned directory and make setup.sh executable -
 
 $ cd polybar-themes
+
+
 $ chmod +x setup.sh
 
     Run setup.sh and select a style -
