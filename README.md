@@ -93,8 +93,14 @@ Available Themes :
 Now, select your theme and launch the bar -
 
     $ bash ~/.config/polybar/launch.sh --hack
+    
+# Must to do 
 
+Use this command in your i3 config for always using polybar 
 
+    exec_always --no-startup-id-exec bash ~/.config/polybar/launch.sh --hack
+
+And make sure to remove all the i3 bar code from i3 config. 
 
 Issues
 
